@@ -1,8 +1,22 @@
 from django.shortcuts import render
 
 # Create your views here.
-from django.http import HttpResponse
+from rest_framework import viewsets
+from .models import User, Product, Order, OrderItem
+from .serializers import UserSerializer, ProductSerializer, OrderSerializer, OrderItemSerializer
 
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
 
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+class ProductViewSet(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+class OrderViewSet(viewsets.ModelViewSet):
+    queryset = Order.objects.all()
+    serializer_class = OrderSerializer
+
+class OrderItemViewSet(viewsets.ModelViewSet):
+    queryset = OrderItem.objects.all()
+    serializer_class = OrderItemSerializer
