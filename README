@@ -2,3 +2,4 @@ pip install dash pandas requests
 python apps.py
 cd ..
 python manage.py runserver
+npm run dev
