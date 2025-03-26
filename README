@@ -2,6 +2,7 @@ pip install dash pandas requests
 python apps.py
 cd ..
 pip install django
+pip install djangorestframework
 python manage.py runserver
 # Front
 npm install bootstrap recharts react-router-dom
