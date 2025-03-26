@@ -2,4 +2,6 @@ pip install dash pandas requests
 python apps.py
 cd ..
 python manage.py runserver
+# Front
+npm install bootstrap recharts react-router-dom
 npm run dev
