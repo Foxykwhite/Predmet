@@ -30,11 +30,11 @@ extensions = [
     'sphinxcontrib_django'
 ]
 
-autodoc_member_order = 'bysource'  # Порядок следования членов по исходному коду
+autodoc_member_order = 'bysource
 autodoc_default_options = {
-    'members': True,  # Включает все члены класса
-    'undoc-members': True,  # Включает даже не задокументированные члены
-    'show-inheritance': True,  # Показывает наследование классов
+    'members': True,
+    'undoc-members': True,
+    'show-inheritance': True,
 }
 
 language = 'ru'
@@ -52,4 +52,4 @@ exclude_patterns = []
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'alabaster'
-html_static_path = ['_static']
+# html_static_path = ['_static']
