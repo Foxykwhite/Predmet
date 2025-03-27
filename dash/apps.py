@@ -67,4 +67,4 @@ def update_table(selected_table):
     return [{"name": col, "id": col} for col in df.columns], df.to_dict("records")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=8050)
