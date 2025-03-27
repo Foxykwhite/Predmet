@@ -14,3 +14,6 @@ docker-compose down
 pip install playwright
 playwright install
 python test_playwright.py
+# Locust
+pip install locust
+locust -f locustfile.py --host=https://effective-cod-wq4gqvrp6p9cgpxg.github.dev
