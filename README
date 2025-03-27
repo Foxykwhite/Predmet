@@ -10,3 +10,7 @@ npm run dev
 # Docker
 docker-compose up --build -d
 docker-compose down
+# Playwright
+pip install playwright
+playwright install
+python test_playwright.py
