@@ -8,5 +8,5 @@ python manage.py runserver
 npm install bootstrap recharts react-router-dom
 npm run dev
 # Docker
-docker-compose up --build
+docker-compose up --build -d
 docker-compose down
