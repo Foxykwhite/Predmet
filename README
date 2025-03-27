@@ -17,3 +17,8 @@ python test_playwright.py
 # Locust
 pip install locust
 locust -f locustfile.py --host=https://effective-cod-wq4gqvrp6p9cgpxg.github.dev
+# Docs
+pip install sphinx
+pip install sphinx-autodoc-typehints
+pip install sphinxcontrib-django
+make html
