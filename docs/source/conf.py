@@ -27,7 +27,8 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.autodoc',
     'sphinx_autodoc_typehints',
-    'sphinxcontrib_django'
+    'sphinxcontrib_django',
+    'sphinx.ext.githubpages',
 ]
 
 autodoc_member_order = 'bysource'

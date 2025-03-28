@@ -544,6 +544,24 @@ one-to-one (via ForwardOneToOneDescriptor subclass) relation.</p>
 
 </dd></dl>
 
+<dl class="py function">
+<dt class="sig sig-object py" id="polls.views.api_home">
+<span class="sig-prename descclassname"><span class="pre">polls.views.</span></span><span class="sig-name descname"><span class="pre">api_home</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#polls.views.api_home" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Возвращает список всех доступных маршрутов API во всем проекте.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="polls.views.collect_routes">
+<span class="sig-prename descclassname"><span class="pre">polls.views.</span></span><span class="sig-name descname"><span class="pre">collect_routes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">patterns</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#polls.views.collect_routes" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Рекурсивно собирает все маршруты API во всем Django-проекте и корректно формирует URL.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="polls.views.get_base_url">
+<span class="sig-prename descclassname"><span class="pre">polls.views.</span></span><span class="sig-name descname"><span class="pre">get_base_url</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#polls.views.get_base_url" title="Ссылка на это определение">¶</a></dt>
+<dd><p>Возвращает базовый URL в зависимости от окружения</p>
+</dd></dl>
+
 
 
           </div>
@@ -648,6 +666,9 @@ one-to-one (via ForwardOneToOneDescriptor subclass) relation.</p>
 <li class="toctree-l2"><a class="reference internal" href="#polls.views.OrderItemViewSet.serializer_class"><code class="docutils literal notranslate"><span class="pre">OrderItemViewSet.serializer_class</span></code></a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="#polls.views.api_home"><code class="docutils literal notranslate"><span class="pre">api_home()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="#polls.views.collect_routes"><code class="docutils literal notranslate"><span class="pre">collect_routes()</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="#polls.views.get_base_url"><code class="docutils literal notranslate"><span class="pre">get_base_url()</span></code></a></li>
 </ul>
 
 <div class="relations">
