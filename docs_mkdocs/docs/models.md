@@ -1,35 +1,35 @@
-# Models Documentation
+# Документация по моделям
 
-## User Model
-Represents a user in the system.
+## Модель User
+Представляет пользователя в системе.
 
-### Fields:
-- `id`: Primary key, auto-incremented.
-- `username`: Unique username.
-- `email`: User email address.
-- `date_joined`: Date when the user joined.
+### Поля:
+- `id`: Первичный ключ, автоинкрементируемый.
+- `username`: Уникальное имя пользователя.
+- `email`: Электронная почта пользователя.
+- `date_joined`: Дата регистрации пользователя.
 
-## Product Model
-Represents a product available for orders.
+## Модель Product
+Представляет товар, доступный для заказа.
 
-### Fields:
-- `id`: Primary key, auto-incremented.
-- `name`: Name of the product.
-- `price`: Price of the product.
+### Поля:
+- `id`: Первичный ключ, автоинкрементируемый.
+- `name`: Название товара.
+- `price`: Цена товара.
 
-## Order Model
-Represents an order made by a user.
+## Модель Order
+Представляет заказ, оформленный пользователем.
 
-### Fields:
-- `id`: Primary key, auto-incremented.
-- `user`: ForeignKey to `User`, representing the owner of the order.
-- `created_at`: Date and time when the order was created.
+### Поля:
+- `id`: Первичный ключ, автоинкрементируемый.
+- `user`: ForeignKey к `User`, обозначает владельца заказа.
+- `created_at`: Дата и время создания заказа.
 
-## OrderItem Model
-Represents an item within an order.
+## Модель OrderItem
+Представляет товар в составе заказа.
 
-### Fields:
-- `id`: Primary key, auto-incremented.
-- `order`: ForeignKey to `Order`, linking the item to a specific order.
-- `product`: ForeignKey to `Product`, indicating which product was ordered.
-- `quantity`: The number of products in the order item.
+### Поля:
+- `id`: Первичный ключ, автоинкрементируемый.
+- `order`: ForeignKey к `Order`, связывает товар с конкретным заказом.
+- `product`: ForeignKey к `Product`, указывает, какой товар был заказан.
+- `quantity`: Количество единиц товара в заказе.

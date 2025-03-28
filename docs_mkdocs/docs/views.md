@@ -1,26 +1,28 @@
-# Views Documentation
+# Представления API
 
-## API Views
+В данном проекте используется Django REST Framework (DRF) для создания API. Представления реализованы в виде ViewSet-классов и функций.
+
+## ViewSet-классы
 
 ### UserViewSet
-Handles CRUD operations for `User`.
+Позволяет управлять пользователями API. Поддерживает операции создания, чтения, обновления и удаления (`CRUD`).
 
 ### ProductViewSet
-Handles CRUD operations for `Product`.
+Предоставляет API для управления товарами.
 
 ### OrderViewSet
-Handles CRUD operations for `Order`.
+Обрабатывает заказы пользователей.
 
 ### OrderItemViewSet
-Handles CRUD operations for `OrderItem`.
+Позволяет управлять отдельными элементами заказа.
 
-### API Home (`api_home`)
-Returns a list of all available API routes.
+## Функции API
 
-## Utility Functions
+### `api_home`
+Выводит список всех доступных маршрутов API в проекте.
 
-### collect_routes(patterns, request, prefix="")
-Recursively collects all API routes and filters invalid ones.
+### `collect_routes`
+Рекурсивно собирает все URL-маршруты и формирует их в удобном формате.
 
-### get_base_url(request=None)
-Returns the base URL based on the environment (local server or GitHub Codespaces).
+### `get_base_url`
+Определяет базовый URL API в зависимости от окружения.
