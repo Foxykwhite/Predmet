@@ -70,7 +70,7 @@ def collect_routes(patterns, request, prefix=""):
 
 def get_base_url(request=None):
     """
-    Возвращает базовый URL в зависимости от окружения (локальный сервер или GitHub Codespaces)
+    Возвращает базовый URL в зависимости от окружения
     """
     if 'CODESPACE_NAME' in os.environ:
         codespace_name = os.environ.get('CODESPACE_NAME')

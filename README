@@ -3,6 +3,7 @@ python apps.py
 cd ..
 pip install django
 pip install djangorestframework
+pip install drf_yasg
 python manage.py runserver
 # Front
 npm install bootstrap recharts react-router-dom
@@ -22,3 +23,5 @@ pip install sphinx
 pip install sphinx-autodoc-typehints
 pip install sphinxcontrib-django
 make html
+# Mc Docs
+mkdocs serve
