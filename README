@@ -24,4 +24,6 @@ pip install sphinx-autodoc-typehints
 pip install sphinxcontrib-django
 make html
 # Mc Docs
+pip install mkdocs-material
+pip install mkdocs
 mkdocs serve
