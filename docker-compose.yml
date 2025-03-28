@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.9"
 
 services:
   djangotutorial:
@@ -6,6 +6,9 @@ services:
     container_name: djangotutorial
     ports:
       - "8000:8000"  # Пробрасываем порт для Django
+    volumes:
+      - .:/djangotutorial  # Монтируем весь проект в контейнер
+      - static_volume:/djangotutorial/staticfiles  # Монтируем папку для собранных статики
 
   dash:
     build: ./dash
@@ -13,12 +16,15 @@ services:
     ports:
       - "8050:8050"  # Пробрасываем порт для
 
-  fitness-tracker:
-    build: ./fitness-tracker
+  store:
+    build: ./store
     ports:
       - "5173:5173"
     volumes:
-      - ./fitness-tracker:/app
+      - ./store:/app
       - /app/node_modules
     environment:
       - NODE_ENV=development
+
+volumes:
+  static_volume:

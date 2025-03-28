@@ -6,6 +6,8 @@ pip install djangorestframework
 pip install drf_yasg
 python manage.py runserver
 # Front
+npm install
+npm install bootstrap recharts
 npm install bootstrap recharts react-router-dom
 npm run dev
 # Docker
