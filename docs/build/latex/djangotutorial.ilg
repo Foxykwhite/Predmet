@@ -1,0 +1,7 @@
+This is makeindex, version 2.15 [TeX Live 2019] (kpathsea + Thai support).
+Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
+Scanning input file djangotutorial.idx....done (66 entries accepted, 0 rejected).
+Sorting entries....done (484 comparisons).
+Generating output file djangotutorial.ind....done (122 lines written, 0 warnings).
+Output written in djangotutorial.ind.
+Transcript written in djangotutorial.ilg.

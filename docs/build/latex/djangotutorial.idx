@@ -1,0 +1,66 @@
+\indexentry{module@\spxentry{module}!polls.models@\spxentry{polls.models}|hyperpage}{1}
+\indexentry{polls.models@\spxentry{polls.models}!module@\spxentry{module}|hyperpage}{1}
+\indexentry{User (класс в polls.models)@\spxentry{User}\spxextra{класс в polls.models}|hyperpage}{1}
+\indexentry{name (атрибут polls.models.User)@\spxentry{name}\spxextra{атрибут polls.models.User}|hyperpage}{1}
+\indexentry{email (атрибут polls.models.User)@\spxentry{email}\spxextra{атрибут polls.models.User}|hyperpage}{1}
+\indexentry{phone (атрибут polls.models.User)@\spxentry{phone}\spxextra{атрибут polls.models.User}|hyperpage}{1}
+\indexentry{date\_registered (атрибут polls.models.User)@\spxentry{date\_registered}\spxextra{атрибут polls.models.User}|hyperpage}{1}
+\indexentry{User.DoesNotExist@\spxentry{User.DoesNotExist}|hyperpage}{1}
+\indexentry{User.MultipleObjectsReturned@\spxentry{User.MultipleObjectsReturned}|hyperpage}{1}
+\indexentry{get\_next\_by\_date\_registered() (метод polls.models.User)@\spxentry{get\_next\_by\_date\_registered()}\spxextra{метод polls.models.User}|hyperpage}{1}
+\indexentry{get\_previous\_by\_date\_registered() (метод polls.models.User)@\spxentry{get\_previous\_by\_date\_registered()}\spxextra{метод polls.models.User}|hyperpage}{1}
+\indexentry{id (атрибут polls.models.User)@\spxentry{id}\spxextra{атрибут polls.models.User}|hyperpage}{1}
+\indexentry{objects (атрибут polls.models.User)@\spxentry{objects}\spxextra{атрибут polls.models.User}|hyperpage}{2}
+\indexentry{order\_set (атрибут polls.models.User)@\spxentry{order\_set}\spxextra{атрибут polls.models.User}|hyperpage}{2}
+\indexentry{Product (класс в polls.models)@\spxentry{Product}\spxextra{класс в polls.models}|hyperpage}{2}
+\indexentry{name (атрибут polls.models.Product)@\spxentry{name}\spxextra{атрибут polls.models.Product}|hyperpage}{2}
+\indexentry{category (атрибут polls.models.Product)@\spxentry{category}\spxextra{атрибут polls.models.Product}|hyperpage}{2}
+\indexentry{price (атрибут polls.models.Product)@\spxentry{price}\spxextra{атрибут polls.models.Product}|hyperpage}{2}
+\indexentry{stock\_quantity (атрибут polls.models.Product)@\spxentry{stock\_quantity}\spxextra{атрибут polls.models.Product}|hyperpage}{3}
+\indexentry{description (атрибут polls.models.Product)@\spxentry{description}\spxextra{атрибут polls.models.Product}|hyperpage}{3}
+\indexentry{Product.DoesNotExist@\spxentry{Product.DoesNotExist}|hyperpage}{3}
+\indexentry{Product.MultipleObjectsReturned@\spxentry{Product.MultipleObjectsReturned}|hyperpage}{3}
+\indexentry{id (атрибут polls.models.Product)@\spxentry{id}\spxextra{атрибут polls.models.Product}|hyperpage}{3}
+\indexentry{objects (атрибут polls.models.Product)@\spxentry{objects}\spxextra{атрибут polls.models.Product}|hyperpage}{3}
+\indexentry{orderitem\_set (атрибут polls.models.Product)@\spxentry{orderitem\_set}\spxextra{атрибут polls.models.Product}|hyperpage}{3}
+\indexentry{Order (класс в polls.models)@\spxentry{Order}\spxextra{класс в polls.models}|hyperpage}{3}
+\indexentry{STATUS\_CHOICES (атрибут polls.models.Order)@\spxentry{STATUS\_CHOICES}\spxextra{атрибут polls.models.Order}|hyperpage}{4}
+\indexentry{user (атрибут polls.models.Order)@\spxentry{user}\spxextra{атрибут polls.models.Order}|hyperpage}{4}
+\indexentry{date\_ordered (атрибут polls.models.Order)@\spxentry{date\_ordered}\spxextra{атрибут polls.models.Order}|hyperpage}{4}
+\indexentry{status (атрибут polls.models.Order)@\spxentry{status}\spxextra{атрибут polls.models.Order}|hyperpage}{4}
+\indexentry{Order.DoesNotExist@\spxentry{Order.DoesNotExist}|hyperpage}{4}
+\indexentry{Order.MultipleObjectsReturned@\spxentry{Order.MultipleObjectsReturned}|hyperpage}{4}
+\indexentry{get\_next\_by\_date\_ordered() (метод polls.models.Order)@\spxentry{get\_next\_by\_date\_ordered()}\spxextra{метод polls.models.Order}|hyperpage}{4}
+\indexentry{get\_previous\_by\_date\_ordered() (метод polls.models.Order)@\spxentry{get\_previous\_by\_date\_ordered()}\spxextra{метод polls.models.Order}|hyperpage}{4}
+\indexentry{get\_status\_display() (метод polls.models.Order)@\spxentry{get\_status\_display()}\spxextra{метод polls.models.Order}|hyperpage}{4}
+\indexentry{id (атрибут polls.models.Order)@\spxentry{id}\spxextra{атрибут polls.models.Order}|hyperpage}{5}
+\indexentry{items (атрибут polls.models.Order)@\spxentry{items}\spxextra{атрибут polls.models.Order}|hyperpage}{5}
+\indexentry{objects (атрибут polls.models.Order)@\spxentry{objects}\spxextra{атрибут polls.models.Order}|hyperpage}{5}
+\indexentry{user\_id (атрибут polls.models.Order)@\spxentry{user\_id}\spxextra{атрибут polls.models.Order}|hyperpage}{5}
+\indexentry{OrderItem (класс в polls.models)@\spxentry{OrderItem}\spxextra{класс в polls.models}|hyperpage}{5}
+\indexentry{order (атрибут polls.models.OrderItem)@\spxentry{order}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{5}
+\indexentry{product (атрибут polls.models.OrderItem)@\spxentry{product}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{5}
+\indexentry{quantity (атрибут polls.models.OrderItem)@\spxentry{quantity}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{6}
+\indexentry{OrderItem.DoesNotExist@\spxentry{OrderItem.DoesNotExist}|hyperpage}{6}
+\indexentry{OrderItem.MultipleObjectsReturned@\spxentry{OrderItem.MultipleObjectsReturned}|hyperpage}{6}
+\indexentry{id (атрибут polls.models.OrderItem)@\spxentry{id}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{6}
+\indexentry{objects (атрибут polls.models.OrderItem)@\spxentry{objects}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{6}
+\indexentry{order\_id (атрибут polls.models.OrderItem)@\spxentry{order\_id}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{6}
+\indexentry{product\_id (атрибут polls.models.OrderItem)@\spxentry{product\_id}\spxextra{атрибут polls.models.OrderItem}|hyperpage}{6}
+\indexentry{module@\spxentry{module}!polls.views@\spxentry{polls.views}|hyperpage}{6}
+\indexentry{polls.views@\spxentry{polls.views}!module@\spxentry{module}|hyperpage}{6}
+\indexentry{UserViewSet (класс в polls.views)@\spxentry{UserViewSet}\spxextra{класс в polls.views}|hyperpage}{6}
+\indexentry{queryset (атрибут polls.views.UserViewSet)@\spxentry{queryset}\spxextra{атрибут polls.views.UserViewSet}|hyperpage}{6}
+\indexentry{serializer\_class (атрибут polls.views.UserViewSet)@\spxentry{serializer\_class}\spxextra{атрибут polls.views.UserViewSet}|hyperpage}{6}
+\indexentry{ProductViewSet (класс в polls.views)@\spxentry{ProductViewSet}\spxextra{класс в polls.views}|hyperpage}{6}
+\indexentry{queryset (атрибут polls.views.ProductViewSet)@\spxentry{queryset}\spxextra{атрибут polls.views.ProductViewSet}|hyperpage}{6}
+\indexentry{serializer\_class (атрибут polls.views.ProductViewSet)@\spxentry{serializer\_class}\spxextra{атрибут polls.views.ProductViewSet}|hyperpage}{6}
+\indexentry{OrderViewSet (класс в polls.views)@\spxentry{OrderViewSet}\spxextra{класс в polls.views}|hyperpage}{6}
+\indexentry{queryset (атрибут polls.views.OrderViewSet)@\spxentry{queryset}\spxextra{атрибут polls.views.OrderViewSet}|hyperpage}{6}
+\indexentry{serializer\_class (атрибут polls.views.OrderViewSet)@\spxentry{serializer\_class}\spxextra{атрибут polls.views.OrderViewSet}|hyperpage}{7}
+\indexentry{OrderItemViewSet (класс в polls.views)@\spxentry{OrderItemViewSet}\spxextra{класс в polls.views}|hyperpage}{7}
+\indexentry{queryset (атрибут polls.views.OrderItemViewSet)@\spxentry{queryset}\spxextra{атрибут polls.views.OrderItemViewSet}|hyperpage}{7}
+\indexentry{serializer\_class (атрибут polls.views.OrderItemViewSet)@\spxentry{serializer\_class}\spxextra{атрибут polls.views.OrderItemViewSet}|hyperpage}{7}
+\indexentry{api\_home() (в модуле polls.views)@\spxentry{api\_home()}\spxextra{в модуле polls.views}|hyperpage}{7}
+\indexentry{collect\_routes() (в модуле polls.views)@\spxentry{collect\_routes()}\spxextra{в модуле polls.views}|hyperpage}{7}
+\indexentry{get\_base\_url() (в модуле polls.views)@\spxentry{get\_base\_url()}\spxextra{в модуле polls.views}|hyperpage}{7}

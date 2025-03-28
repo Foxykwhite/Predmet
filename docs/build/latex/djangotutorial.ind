@@ -1,0 +1,122 @@
+\begin{sphinxtheindex}
+\let\bigletter\sphinxstyleindexlettergroup
+\let\spxpagem \sphinxstyleindexpagemain
+\let\spxentry \sphinxstyleindexentry
+\let\spxextra \sphinxstyleindexextra
+
+  \bigletter A
+  \item \spxentry{api\_home()}\spxextra{в модуле polls.views}, \hyperpage{7}
+
+  \indexspace
+  \bigletter C
+  \item \spxentry{category}\spxextra{атрибут polls.models.Product}, \hyperpage{2}
+  \item \spxentry{collect\_routes()}\spxextra{в модуле polls.views}, \hyperpage{7}
+
+  \indexspace
+  \bigletter D
+  \item \spxentry{date\_ordered}\spxextra{атрибут polls.models.Order}, \hyperpage{4}
+  \item \spxentry{date\_registered}\spxextra{атрибут polls.models.User}, \hyperpage{1}
+  \item \spxentry{description}\spxextra{атрибут polls.models.Product}, \hyperpage{3}
+
+  \indexspace
+  \bigletter E
+  \item \spxentry{email}\spxextra{атрибут polls.models.User}, \hyperpage{1}
+
+  \indexspace
+  \bigletter G
+  \item \spxentry{get\_base\_url()}\spxextra{в модуле polls.views}, \hyperpage{7}
+  \item \spxentry{get\_next\_by\_date\_ordered()}\spxextra{метод polls.models.Order}, 
+		\hyperpage{4}
+  \item \spxentry{get\_next\_by\_date\_registered()}\spxextra{метод polls.models.User}, 
+		\hyperpage{1}
+  \item \spxentry{get\_previous\_by\_date\_ordered()}\spxextra{метод polls.models.Order}, 
+		\hyperpage{4}
+  \item \spxentry{get\_previous\_by\_date\_registered()}\spxextra{метод polls.models.User}, 
+		\hyperpage{1}
+  \item \spxentry{get\_status\_display()}\spxextra{метод polls.models.Order}, \hyperpage{4}
+
+  \indexspace
+  \bigletter I
+  \item \spxentry{id}\spxextra{атрибут polls.models.Order}, \hyperpage{5}
+  \item \spxentry{id}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{6}
+  \item \spxentry{id}\spxextra{атрибут polls.models.Product}, \hyperpage{3}
+  \item \spxentry{id}\spxextra{атрибут polls.models.User}, \hyperpage{1}
+  \item \spxentry{items}\spxextra{атрибут polls.models.Order}, \hyperpage{5}
+
+  \indexspace
+  \bigletter M
+  \item \spxentry{module}
+    \subitem \spxentry{polls.models}, \hyperpage{1}
+    \subitem \spxentry{polls.views}, \hyperpage{6}
+
+  \indexspace
+  \bigletter N
+  \item \spxentry{name}\spxextra{атрибут polls.models.Product}, \hyperpage{2}
+  \item \spxentry{name}\spxextra{атрибут polls.models.User}, \hyperpage{1}
+
+  \indexspace
+  \bigletter O
+  \item \spxentry{objects}\spxextra{атрибут polls.models.Order}, \hyperpage{5}
+  \item \spxentry{objects}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{6}
+  \item \spxentry{objects}\spxextra{атрибут polls.models.Product}, \hyperpage{3}
+  \item \spxentry{objects}\spxextra{атрибут polls.models.User}, \hyperpage{2}
+  \item \spxentry{order}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{5}
+  \item \spxentry{Order}\spxextra{класс в polls.models}, \hyperpage{3}
+  \item \spxentry{Order.DoesNotExist}, \hyperpage{4}
+  \item \spxentry{Order.MultipleObjectsReturned}, \hyperpage{4}
+  \item \spxentry{order\_id}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{6}
+  \item \spxentry{order\_set}\spxextra{атрибут polls.models.User}, \hyperpage{2}
+  \item \spxentry{OrderItem}\spxextra{класс в polls.models}, \hyperpage{5}
+  \item \spxentry{OrderItem.DoesNotExist}, \hyperpage{6}
+  \item \spxentry{OrderItem.MultipleObjectsReturned}, \hyperpage{6}
+  \item \spxentry{orderitem\_set}\spxextra{атрибут polls.models.Product}, \hyperpage{3}
+  \item \spxentry{OrderItemViewSet}\spxextra{класс в polls.views}, \hyperpage{7}
+  \item \spxentry{OrderViewSet}\spxextra{класс в polls.views}, \hyperpage{6}
+
+  \indexspace
+  \bigletter P
+  \item \spxentry{phone}\spxextra{атрибут polls.models.User}, \hyperpage{1}
+  \item \spxentry{polls.models}
+    \subitem \spxentry{module}, \hyperpage{1}
+  \item \spxentry{polls.views}
+    \subitem \spxentry{module}, \hyperpage{6}
+  \item \spxentry{price}\spxextra{атрибут polls.models.Product}, \hyperpage{2}
+  \item \spxentry{product}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{5}
+  \item \spxentry{Product}\spxextra{класс в polls.models}, \hyperpage{2}
+  \item \spxentry{Product.DoesNotExist}, \hyperpage{3}
+  \item \spxentry{Product.MultipleObjectsReturned}, \hyperpage{3}
+  \item \spxentry{product\_id}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{6}
+  \item \spxentry{ProductViewSet}\spxextra{класс в polls.views}, \hyperpage{6}
+
+  \indexspace
+  \bigletter Q
+  \item \spxentry{quantity}\spxextra{атрибут polls.models.OrderItem}, \hyperpage{6}
+  \item \spxentry{queryset}\spxextra{атрибут polls.views.OrderItemViewSet}, \hyperpage{7}
+  \item \spxentry{queryset}\spxextra{атрибут polls.views.OrderViewSet}, \hyperpage{6}
+  \item \spxentry{queryset}\spxextra{атрибут polls.views.ProductViewSet}, \hyperpage{6}
+  \item \spxentry{queryset}\spxextra{атрибут polls.views.UserViewSet}, \hyperpage{6}
+
+  \indexspace
+  \bigletter S
+  \item \spxentry{serializer\_class}\spxextra{атрибут polls.views.OrderItemViewSet}, 
+		\hyperpage{7}
+  \item \spxentry{serializer\_class}\spxextra{атрибут polls.views.OrderViewSet}, 
+		\hyperpage{7}
+  \item \spxentry{serializer\_class}\spxextra{атрибут polls.views.ProductViewSet}, 
+		\hyperpage{6}
+  \item \spxentry{serializer\_class}\spxextra{атрибут polls.views.UserViewSet}, 
+		\hyperpage{6}
+  \item \spxentry{status}\spxextra{атрибут polls.models.Order}, \hyperpage{4}
+  \item \spxentry{STATUS\_CHOICES}\spxextra{атрибут polls.models.Order}, \hyperpage{4}
+  \item \spxentry{stock\_quantity}\spxextra{атрибут polls.models.Product}, \hyperpage{3}
+
+  \indexspace
+  \bigletter U
+  \item \spxentry{user}\spxextra{атрибут polls.models.Order}, \hyperpage{4}
+  \item \spxentry{User}\spxextra{класс в polls.models}, \hyperpage{1}
+  \item \spxentry{User.DoesNotExist}, \hyperpage{1}
+  \item \spxentry{User.MultipleObjectsReturned}, \hyperpage{1}
+  \item \spxentry{user\_id}\spxextra{атрибут polls.models.Order}, \hyperpage{5}
+  \item \spxentry{UserViewSet}\spxextra{класс в polls.views}, \hyperpage{6}
+
+\end{sphinxtheindex}

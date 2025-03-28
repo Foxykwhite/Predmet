@@ -1,0 +1,3 @@
+\babel@toc {russian}{}
+\contentsline {chapter}{Содержание модулей Python}{9}{section*.67}%
+\contentsline {chapter}{Алфавитный указатель}{11}{section*.68}%
