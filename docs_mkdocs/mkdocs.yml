@@ -1,0 +1,16 @@
+site_name: "Документация проекта"
+nav:
+  - Главная: index.md
+  - API:
+      - Модели: models.md
+      - Представления: views.md
+theme:
+  name: material
+  language: ru
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
